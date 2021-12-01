@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cumtbli.github.io</id>
     <title>Gridea</title>
-    <updated>2021-11-29T14:56:13.445Z</updated>
+    <updated>2021-12-01T04:59:16.656Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cumtbli.github.io"/>
     <link rel="self" href="https://cumtbli.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://cumtbli.github.io/images/avatar.png</logo>
     <icon>https://cumtbli.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[第一天]]></title>
+        <id>https://cumtbli.github.io/post/di-yi-tian/</id>
+        <link href="https://cumtbli.github.io/post/di-yi-tian/">
+        </link>
+        <updated>2021-12-01T04:57:17.000Z</updated>
+        <content type="html"><![CDATA[<p>第一天。。。。。。。。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://cumtbli.github.io/post/hello-gridea/</id>
