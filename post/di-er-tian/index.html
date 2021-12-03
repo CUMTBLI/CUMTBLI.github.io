@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>文章归档 | Are you OK?</title>
+<title>第二天  | Are you OK?</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -14,13 +14,21 @@
 
 
 
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="光看没有用">
+    <meta name="description" content="https://blog.csdn.net/daniaoxp/article/details/100184748
+" />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -80,40 +88,35 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
+          <div class="post-detail">
+            <h2 class="post-title">第二天 </h2>
+            <div class="post-date">2021-12-03</div>
+            
+            <div class="post-content" v-pre>
+              <p>https://blog.csdn.net/daniaoxp/article/details/100184748</p>
 
-          <h2 class="archives-title">文章归档</h2>
-          <div class="archives-container">
+            </div>
             
-              <h2 class="year" data-aos="fade-up">2021</h2>
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://cumtbli.github.io/post/di-yi-tian/">
+                  <h3 class="post-title">
+                    第一天 stm32f103寄存器地址
+                  </h3>
+                </a>
+              </div>
+            
+
+            
               
-                
-                  <article class="post">
-                    <a href="https://cumtbli.github.io/post/di-er-tian/">
-                      <h2 class="post-title">
-                        第二天 
-                      </h2>
-                    </a>
-                  </article>
-                
+                <div id="gitalk-container" data-aos="fade-in"></div>
               
-                
-                  <article class="post">
-                    <a href="https://cumtbli.github.io/post/di-yi-tian/">
-                      <h2 class="post-title">
-                        第一天 stm32f103寄存器地址
-                      </h2>
-                    </a>
-                  </article>
-                
+
               
             
+
           </div>
-
-          <div class="pagination-container">
-  
-  
-</div>
 
         </div>
       </div>
@@ -134,6 +137,29 @@ var app = new Vue({
 </script>
 
 
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1.5.0/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'ffe34f58fd060035836d',
+        clientSecret: '4906ba80ce16db306ee40840eff78880188cc56c',
+        repo: 'CUMTBLI.github.io',
+        owner: 'CUMTBLI',
+        admin: ['CUMTBLI'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
