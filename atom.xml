@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://cumtbli.github.io</id>
     <title>Are you OK?</title>
-    <updated>2021-12-03T14:45:56.964Z</updated>
+    <updated>2021-12-03T14:54:15.352Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://cumtbli.github.io"/>
     <link rel="self" href="https://cumtbli.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>光看没有用</subtitle>
     <logo>https://cumtbli.github.io/images/avatar.png</logo>
     <icon>https://cumtbli.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Are you OK?</rights>
